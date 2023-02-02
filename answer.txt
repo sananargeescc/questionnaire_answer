@@ -1,0 +1,149 @@
+1)What are python modules?
+ans:
+
+   A document with definitions of functions and various statements written in Python is called a Python module.A module is a file containing Python code, definitions of functions, statements, or classes. An example_module.py file is a module we will create and whose name is example_module.
+  
+2)What are the built-in data-types in Python?
+ans:
+ 
+   - Numeric data types: int, float, complex.
+   - String data types: str.
+   - Sequence types: list, tuple, range.
+   - Binary types: bytes, bytearray, memoryview.
+   - Mapping data type: dict.
+   - Boolean type: bool.
+   - Set data types: set, frozenset. Python Numeric Data Type.
+
+3)Difference between mutable and immutable data types in python?
+ans:
+
+   1-Mutable data type:-
+     - Anything is said to be mutable when anything can be modified or changed. The term "mutable" in Python refers to an object's capacity to modify 
+       its values. These are frequently the things that hold a data collection.
+     - Example: Lists, Dicts, Sets, User-Defined Classes, Dictionaries, etc.
+
+   2-Immutable data type:-
+     - Immutable refers to a state in which no change can occur over time. A Python object is referred to as immutable if we cannot change its value over 
+       time.The value of these Python objects is fixed once they are made.
+     - Example: int, float, bool, string, Unicode, tuple, Numbers, etc
+
+4)What is name space in Python?
+ans:
+
+   A namespace is a way of providing the unique name for each object in Python. Everything in Python is an object, i.e., a variable or a method. In other 
+words, it is a collection of the defined symbolic names along with the information about the object that each name references. A namespace can be understood as a dictionary where a name represents a key and objects are values.
+There are four types of namespaces:
+1-Built-In
+2-Global
+3-Enclosing
+4-Local
+
+5)What is the difference between list and tuples in Python?
+ans:
+
+   List:-
+      - The items are surrounded in paranthesis [].
+      - Lists are mutable in nature.
+      - There are 46 available methods onn lists.
+      - In dictionary,we can't use lists as key.
+
+
+   Tuple:-
+      - The items are surrounded in paranthesis ().
+      - Tuple are immutable in nature.
+      - There are 33 available methods onn tuple.
+      - In dictionary,we can create keys using tuples.
+
+6)What are local variables and global variables in Python?
+ans:
+
+   Global Variables:
+       Variables that are created outside of a function are known as global variables.
+       Global variables can be used by everyone, both inside of functions and outside.
+   Local Variable:
+      local variables are those which are defined inside a function and its scope is limited   to that function only. In other words, we can say that local
+      variables are accessible only inside the function in which it was initialized whereas the global variables are accessible throughout the program and   
+      inside every function.
+
+7)What do *args and **kwargs mean?
+ans:
+
+    - Python has an *args which allows the user to pass a multiple number of arguments to the function. Python *args allows only Positional Arguments.
+    - One limitation of Python *args is that it does not accept any keyword arguments.**kwargs allows us to pass a variable number of keyworded arguments to 
+      the function. Python *kwargs allows only Keyword Arguments. 
+
+8)How is memory managed in Python?
+ans:
+   
+   Memory management is very important for software developers to work efficiently with any programming language. As we know, Python is a famous and widely used programming language.According to the Python memory management documentation, Python has a private heap that stores our program’s objects and data structures. Python memory manager takes care of the bulk of the memory management work and allows us to concentrate on our code.
+
+9)What are the key features of Python?
+ans:
+
+   - Easy to Learn and Use.
+   - Expressive Language.
+   - Interpreted Language.
+   - Free and Open Source.
+   - Object-Oriented Language
+    
+10)What type of language is python?
+ans:
+
+   Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Let’s understand the paradigms one by one. Paradigms classify programming languages based on their features.
+
+11)How is Python an interpreted language?
+ans:
+
+   - Python program runs directly from the source code.
+   - Each time Python programs are executed code is required.
+   - Python converts source code written by the programmer into intermediate language which 
+     is again translated into the native language / machine language that is executed. So 
+     Python is an Interpreted language.
+   - It is processed at runtime by the interpreter.
+
+12)What are data structures?
+ans:
+   
+   - The basic Python data structures in Python include list, set, tuples, and dictionary.
+   - The data structures differ based on mutability and order.
+   - Python Lists are just like the arrays, declared in other languages which is an ordered      
+     collection of data.
+   - Python Tuple is a collection of Python objects much like a list but Tuples are     immutable in nature i.e. the elements in the tuple cannot be adde
+     or removed once created. 
+   - Python Set is an unordered collection of data that is mutable and does not allow any 
+     duplicate element. 
+   - Python Dictionaries are used to store data values in key:value pairs.A dictionary is a collection which is ordered*, changeable and do not allow   
+     duplicates.
+
+13)Major Differences between python 2 and python 3
+ans:
+
+   Python 2:-
+       - Python 2 is a version of Python programming language which will get minimum support and additional features in future.
+       - In Python 2, it is not compulsory to use parenthesis. e.g. print “Hello World”
+       - In Python 2, input() function can be used to read as strings if they are inside quotes else read as numbers.
+   Python 3:-
+       - Python 3 is a version of Python programming language which is continually adding new features and bugs fixed.
+       - In Python 3, it is compulsory to use parenthesis. e.g. print(“Hello World”).
+       - In Python 3, input() function reads the input as a string.
+
+14)What is type conversion?
+ans:
+  
+   - Type conversion is the process of converting a data type into another data type.
+   - implicit type conversion is performed by a Python interpreter only.
+   - Explicit type conversion is performed by the user by explicitly using type conversion      
+     functions in the program code.
+   - Explicit type conversion is also known as typecasting.
+
+15)What are the applications of python?
+ans:
+
+   - Web Development
+   - Game Development
+   - Machine Learning and Artificial Intelligence
+   - Data Science and Data Visualization
+   - Desktop GUI
+   - Web Scraping Applications
+   - Business Applications
+   - Audio and Video Applications 
